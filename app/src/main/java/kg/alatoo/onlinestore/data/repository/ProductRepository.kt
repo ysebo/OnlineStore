@@ -1,6 +1,7 @@
 package kg.alatoo.onlinestore.data.repository
 
 import kg.alatoo.onlinestore.data.remote.ApiService
+import kg.alatoo.onlinestore.data.remote.dto.Category
 import kg.alatoo.onlinestore.data.remote.dto.Product
 import kg.alatoo.onlinestore.data.remote.dto.ProductsResponse
 import kg.alatoo.onlinestore.data.remote.retrofit.RetrofitInstance
@@ -43,7 +44,7 @@ class ProductRepository {
         }
     }
 
-    suspend fun getCategories(): Result<List<String>> {
+    suspend fun getCategories(): Result<List<Category>> {
         return try {
             val response = api.getCategories()
             Result.success(response)
