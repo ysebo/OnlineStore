@@ -73,7 +73,8 @@ dependencies {
     implementation(libs.logging.interceptor)
 
     implementation(libs.coil.compose)
-
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
+    implementation("androidx.compose.material:material-icons-extended:1.6.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
