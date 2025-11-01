@@ -3,6 +3,7 @@ package kg.alatoo.onlinestore.data.remote
 import kg.alatoo.onlinestore.data.remote.dto.CartRequest
 import kg.alatoo.onlinestore.data.remote.dto.CartResponse
 import kg.alatoo.onlinestore.data.remote.dto.CartsListResponse
+import kg.alatoo.onlinestore.data.remote.dto.Category
 import kg.alatoo.onlinestore.data.remote.dto.LoginRequest
 import kg.alatoo.onlinestore.data.remote.dto.LoginResponse
 import kg.alatoo.onlinestore.data.remote.dto.Product
@@ -25,7 +26,7 @@ interface ApiService {
     suspend fun getProductById(@Path("id") id: Int): Product
 
     @GET("products/categories")
-    suspend fun getCategories(): List<String>
+    suspend fun getCategories(): List<Category>
 
     @GET("products/category/{category}")
     suspend fun getProductsByCategory(@Path("category") category: String): ProductsResponse
