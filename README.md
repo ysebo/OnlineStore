@@ -18,6 +18,18 @@
 - **Shopping Cart** - Add, update, and remove products from cart
 - **Quantity Management** - Adjust product quantities with stock validation
 
+### Order Management
+- **Quick Checkout** - Place orders with one tap
+- **Order Confirmation** - Visual feedback on successful orders
+- **Cart Persistence** - Cart state maintained across sessions
+
+### User Interface
+- **Material 3 Design** - Modern, beautiful UI following Material Design guidelines
+- **Smooth Animations** - Fluid transitions and interactions
+- **Responsive Layout** - Optimized for different screen sizes
+- **Badge Notifications** - Visual cart item counter
+
+
 ## Download
 
 ### Latest Release
@@ -32,17 +44,6 @@ Download the latest APK from [Releases page](https://github.com/ysebo/OnlineStor
 **Minimum Requirements:**
 - Android 8.0 (API 26) or higher
 - 50 MB free space
-
-### Order Management
-- **Quick Checkout** - Place orders with one tap
-- **Order Confirmation** - Visual feedback on successful orders
-- **Cart Persistence** - Cart state maintained across sessions
-
-### User Interface
-- **Material 3 Design** - Modern, beautiful UI following Material Design guidelines
-- **Smooth Animations** - Fluid transitions and interactions
-- **Responsive Layout** - Optimized for different screen sizes
-- **Badge Notifications** - Visual cart item counter
 
 ##  Architecture
 
