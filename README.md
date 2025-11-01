@@ -18,6 +18,21 @@
 - **Shopping Cart** - Add, update, and remove products from cart
 - **Quantity Management** - Adjust product quantities with stock validation
 
+## Download
+
+### Latest Release
+Download the latest APK from [Releases page](https://github.com/ysebo/OnlineStore/releases)
+
+### Manual Installation
+1. Download the APK file
+2. Enable "Install from Unknown Sources" in Android settings
+3. Open the APK file and install
+4. Launch ShopHub app
+
+**Minimum Requirements:**
+- Android 8.0 (API 26) or higher
+- 50 MB free space
+
 ### Order Management
 - **Quick Checkout** - Place orders with one tap
 - **Order Confirmation** - Visual feedback on successful orders
