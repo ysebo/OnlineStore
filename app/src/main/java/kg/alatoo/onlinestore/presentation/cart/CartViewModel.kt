@@ -67,10 +67,10 @@ class CartViewModel : ViewModel() {
             val result = cartRepository.addCart(request)
 
             _orderState.value = if (result.isSuccess) {
-                _cartItems.value = emptyMap() // Очищаем корзину после заказа
+                _cartItems.value = emptyMap()
                 OrderState.Success(result.getOrNull()!!)
             } else {
-                OrderState.Error(result.exceptionOrNull()?.message ?: "Ошибка оформления заказа")
+                OrderState.Error(result.exceptionOrNull()?.message ?: "Error")
             }
         }
     }
