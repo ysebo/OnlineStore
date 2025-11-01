@@ -20,7 +20,7 @@ class CartRepository {
             Result.failure(e)
         }
     }
-
+    //возможно потом понадобится, на всякий пусть будет тут
     suspend fun getUserCarts(userId: Int): Result<List<CartResponse>> {
         return try {
             val response = api.getUserCarts(userId)
